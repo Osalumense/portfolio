@@ -26,7 +26,7 @@ function App() {
         </div>
     </div>
     <div className="container items-center max-w-4xl px-5 mx-auto mt-16 text-center">
-        <img src="https://cdn.devdojo.com/images/november2020/hero-image.png"/>
+        <img src="https://cdn.devdojo.com/images/november2020/hero-image.png" alt="development"/>
     </div>
 </section>
 
