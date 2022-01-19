@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import { ThemeProvider } from './components/Theme/ThemeContext';
 import Background from './components/Theme/Background';
-import Toggle from './components/Theme/ThemeToggle';
 import reportWebVitals from './reportWebVitals';
 
 
