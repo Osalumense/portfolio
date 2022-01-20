@@ -10,19 +10,19 @@ function NavLinks () {
     const { theme, setTheme } = React.useContext(ThemeContext);
     return (
         <>
-                <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#hero">
+                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-600 dark:hover:text-yellow-400" smooth to="/#hero">
                     Home
                 </HashLink>
-                <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#about">
+                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-600 dark:hover:text-yellow-400" smooth to="/#about">
                     About Me
                 </HashLink>
                 {/* <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#services">
                     Projects
                 </HashLink> */}
-                <Link className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/">
+                <Link className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-600 dark:hover:text-yellow-400" to="/">
                     Portfolio
                 </Link>
-                <Link className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="#">
+                <Link className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-600 dark:hover:text-yellow-400" to="#">
                     Contact Me
                 </Link>
                 <Link className="px-4 font-extrabold text-gray-500 hover:text-blue-900 transition duration-500 ease-in-out" to="#">
