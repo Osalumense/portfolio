@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/Navigation/NavBar';
-import heroImg from '../images/portfolio-img.png';
+import heroImg from '../assets/images/portfolio-img.png';
 import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
