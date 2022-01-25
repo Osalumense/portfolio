@@ -34,21 +34,15 @@ const Modal = ({canShow, updateModalState, props}) => {
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-between p-6 border-t border-solid border-blueGray-200 rounded-b">
-                    <a href={props.ghLink}>View on GitHub</a>
-                    <a href={props.liveLink}>View Demo</a>
+                    <a className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href={props.ghLink}>View on GitHub</a>
+                    <a className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href={props.liveLink}>View Demo</a>
+                    {/* <a className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href={props.liveLink}>View on LinkedIn</a> */}
                   <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className="bg-red-500 text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
                     onClick={updateModalState}
                   >
                     Close
-                  </button>
-                  <button
-                    className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={updateModalState}
-                  >
-                    Save Changes
                   </button>
                 </div>
               </div>
