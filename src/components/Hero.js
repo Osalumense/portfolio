@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/Navigation/NavBar';
 import heroImg from '../assets/images/portfolio-img.png';
+import cv from '../assets/Akugbe_Stephen_CV.pdf';
 import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
@@ -12,7 +13,7 @@ const Hero = () => {
                     <NavBar />
                 </div>
                 
-                <div className="m-auto max-w-screen mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
+                <div className="max-w-screen mt-8 lg:mt-0 p-2 md:p-12" data-aos="zoom-in">
 
                     <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col lg:mx-8 justify-center" data-aos="zoom-in" data-aos-delay="200">
@@ -35,13 +36,23 @@ const Hero = () => {
                             >
                                 A Full Stack 
                                 <span 
-                                    className="bg-yellow-400 p-1 mx-2">Web Developer
+                                    class="block before:absolute before:-inset-1 before:-skew-y-3
+                                    hover:skew-y-6
+                                    transition-all ease-in duration-500
+                                    before:bg-yellow-400 ml-2 relative inline-block"
+                                    >
+                                    <span 
+                                        class="relative text-white text-3xl"
+                                    >
+                                        Web Developer
+                                    </span>
                                 </span>
                             </h3>
                             <div className="mt-8 space-x-0 md:space-x-6 md:mb-8">
                                 <a 
-                                    href="#_" 
+                                    href={cv} 
                                     className="text-white bg-gradient-to-r from-slate-800 via-zinc-500 to-black  dark:from-yellow-400 dark:to-slate-600 dark:via-zinc-500 hover:bg-blue-800 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0"
+                                    download
                                 >
                                     Download CV
                                     <FaArrowDown className="w-4 h-4 ml-1 group-hover:animate-bounce"/>
