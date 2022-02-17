@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { ModalContext } from "./Context";
 import Modal from '../components/Modal';
 import { projectsArr } from './ProjectsArr';
 // import Img from '../assets/images/portfolio-img.png';
 
 const Projects = () => {
-   const [showModal, updateShowModal] = React.useState(false);
+   const [showModal, updateShowModal] = useState(false);
    const toggleModal = () => updateShowModal(state => !state);
-   let [idn, updateIdn] = React.useState(() => {
+   let [idn, updateIdn] = useState(() => {
       return 0;
-   });
+   })
    const setIdn = (val) => {
       updateIdn(idn = val-1);
    };
