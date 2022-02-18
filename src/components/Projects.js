@@ -22,7 +22,9 @@ const Projects = () => {
       return (
          
    <>
-      <div className="w-full md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500 ">
+      <div 
+      className="w-full md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500"
+      >
                      <div className="rounded-md shadow-md bg-gray-100 dark:bg-slate-800 overflow-hidden mb-10">
                      <div className="p-4 text-center">
                            <h3>
@@ -38,12 +40,17 @@ const Projects = () => {
                               inline-block
                               py-2
                               px-7
-                              border border-[#E5E7EB]
+                              border border-gray-200
                               rounded-full
                               text-base text-body-color
                               font-medium
-                              hover:border-primary hover:bg-primary hover:text-white
+                              hover:border-primary hover:bg-primary
+                              hover:scale-110
+                              dark:text-yellow-400
+                              dark:hover:text-gray-200
                               transition
+                              ease-in-out 
+                              duration-500
                               "
                               onClick={() => {
                                  setIdn(item.id);
@@ -72,7 +79,7 @@ const Projects = () => {
                <div className='flex justify-center'>
                     <div className='w-24 border-2 border-gray-600 mb-8'></div>
                 </div>
-               <div className="flex flex-wrap">
+               <div className="flex px-8 flex-wrap">
                   {projectCards}
                </div>
             </div>

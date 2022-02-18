@@ -1,5 +1,7 @@
 import './index.css';
 import './App.css';
+// import Particles from 'react-particles-js';
+// import particlesConfig from './config/particlesConfig';
 import {
   BrowserRouter as Router,
   Routes,
