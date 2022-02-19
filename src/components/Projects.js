@@ -75,10 +75,16 @@ const Projects = () => {
       <ModalContext.Provider value={{ showModal, toggleModal, projects}}>
          <section className=" dark:bg-slate-900 mx-auto pt-20 pb-10 lg:pb-20">
             <div className="">
-               <h2 className="flex justify-center text-4xl font-bold tracking-wide mb-2 text-gray-600">Portfolio</h2>
+               <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-2 text-slate-900 dark:text-gray-200">Portfolio</h2>
                <div className='flex justify-center'>
-                    <div className='w-24 border-2 border-gray-600 mb-8'></div>
-                </div>
+                    <div className='w-24 border-b-4 border-slate-900 dark:border-gray-200 mb-8'></div>
+               </div>
+               {/* <div
+                  className="mb-5 flex items-center max-w-md"
+               >
+                  <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> About Me</h2>
+                  <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b-2"></div>
+               </div> */}
                <div className="flex px-8 flex-wrap">
                   {projectCards}
                </div>
