@@ -25,14 +25,14 @@ const Projects = () => {
       <div 
       className="w-full md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500"
       >
-                     <div className="rounded-md shadow-md bg-gray-100 dark:bg-slate-800 overflow-hidden mb-10">
+                     <div className="rounded-md shadow-lg bg-gray-100 dark:bg-slate-800 overflow-hidden mb-10">
                      <div className="p-4 text-center">
                            <h3>
-                              <h3 className="text-3xl font-bold text-slate-900 dark:text-yellow-400">
+                              <h3 className="text-3xl font-bold text-slate-900 dark:text-gray-200">
                                  {item.details.title}
                               </h3>
                            </h3>
-                           <p className="text-base font-medium text-body-color leading-relaxed my-4 text-slate-900 dark:text-yellow-400">
+                           <p className="text-base font-medium text-body-color leading-relaxed my-4 text-slate-900 dark:text-gray-200">
                               {item.overview}
                            </p>
                            <button
@@ -46,7 +46,7 @@ const Projects = () => {
                               font-medium
                               hover:border-primary hover:bg-primary
                               hover:scale-110
-                              dark:text-yellow-400
+                              dark:text-gray-200
                               dark:hover:text-gray-200
                               transition
                               ease-in-out 
@@ -85,7 +85,7 @@ const Projects = () => {
                   <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> About Me</h2>
                   <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b-2"></div>
                </div> */}
-               <div className="flex px-8 flex-wrap">
+               <div className="flex px-16 flex-wrap">
                   {projectCards}
                </div>
             </div>
