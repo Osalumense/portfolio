@@ -32,13 +32,14 @@ const Hero = () => {
                                 </span>
                             </h1>
                             <h3
-                                className="text-3xl lg:text-7xl text-gray-900 dark:text-gray-200 font-bold"
+                                className="text-5xl lg:text-7xl text-gray-900 dark:text-gray-200 font-bold"
                             >
                                 A Full Stack 
                                 <span 
                                     class="block before:absolute before:-inset-1 before:-skew-y-3
-                                    before:p-4
+                                    before:p-4 mt-4 lg:mt-0
                                     hover:skew-y-6
+                                    cursor-pointer
                                     transition-all ease-in duration-500
                                     before:bg-yellow-400 ml-2 relative inline-block"
                                     >
@@ -73,7 +74,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div
-                    class="h-20 w-20 rounded-full bg-yellow-400 absolute animate-pulse top-2 left-2 -ml-10 -mt-10"
+                    class="h-20 w-20 rounded-full bg-yellow-400 absolute animate-pulse top-2 left-2 -ml-10 mt-24"
                 ></div>
                 {/* 
                   <div

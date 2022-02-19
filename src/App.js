@@ -2,8 +2,6 @@ import './index.css';
 import './App.css';
 import React, {useState, useEffect} from "react";
 import { FaArrowUp } from "react-icons/fa";
-import Particles from "react-tsparticles";
-import ParticlesConfig from "./assets/ParticlesConfig";
 import {
   BrowserRouter as Router,
   Routes,
