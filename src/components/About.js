@@ -10,7 +10,7 @@ function About() {
             className="mb-5 flex items-center max-w-md"
         >
             <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> About Me</h2>
-            <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b-4"></div>
+            {/* <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b"></div> */}
         </div>
 
         <div className="mt-4 flex items-center flex-col-reverse lg:flex-row lg:justify-between">

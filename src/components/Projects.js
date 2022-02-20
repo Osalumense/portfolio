@@ -28,7 +28,7 @@ const Projects = () => {
                      <div className="rounded-md shadow-lg bg-gray-100 dark:bg-slate-800 overflow-hidden mb-10">
                      <div className="p-4 text-center">
                            <h3>
-                              <h3 className="text-3xl font-bold text-slate-900 dark:text-gray-200">
+                              <h3 className="text-3xl font-semibold text-slate-900 dark:text-gray-200">
                                  {item.details.title}
                               </h3>
                            </h3>
@@ -75,10 +75,10 @@ const Projects = () => {
       <ModalContext.Provider value={{ showModal, toggleModal, projects}}>
          <section className=" dark:bg-slate-900 mx-auto pt-20 pb-10 lg:pb-20">
             <div className="">
-               <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-2 text-slate-900 dark:text-gray-200">Portfolio</h2>
-               <div className='flex justify-center'>
+               <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-8 text-slate-900 dark:text-gray-200">Portfolio</h2>
+               {/* <div className='flex justify-center'>
                     <div className='w-24 border-b-4 border-slate-900 dark:border-gray-200 mb-8'></div>
-               </div>
+               </div> */}
                {/* <div
                   className="mb-5 flex items-center max-w-md"
                >
