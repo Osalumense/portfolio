@@ -19,84 +19,84 @@ function About() {
                 <p className="mt-5">Skills: </p>
                 <div class="grid grid-cols-3 gap-4 mt-4 sm:grid-cols-6 lg:grid-cols-12 sm:px-8 xl:px-0">
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3  p-2 overflow-hidden bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer shadow-lg rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3  p-2 overflow-hidden bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer shadow-lg rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <FaPhp className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">PHP</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer shadow-lg bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer shadow-lg bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <FaLaravel className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Laravel</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <FaReact className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">React</p>
                     </div>
                     
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <FaVuejs className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">VueJS</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <FaBootstrap className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Bootstrap</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiTailwindcss className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Tailwind CSS</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiFlask className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Flask</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiMysql className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Mysql</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiMongodb className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Mongo DB</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiNodedotjs className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Node JS</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiExpress className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
                         <p class="text-sm ml-1 font-medium text-gray-700 dark:text-gray-200">Express JS</p>
                     </div>
 
-                    <div class="relative flex flex-row items-center col-auto lg:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transtition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
+                    <div class="relative flex flex-row items-center col-auto md:col-span-3 p-2 overflow-hidden shadow-lg bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer bg-gray-100 dark:bg-slate-800 rounded-xl">
                         <div class="text-gray-200 rounded-full">
                             <SiFirebase className="text-gray-700 dark:text-gray-200 w-8 h-8"/>
                         </div>
