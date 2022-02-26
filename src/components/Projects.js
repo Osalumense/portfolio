@@ -85,7 +85,7 @@ const Projects = () => {
                   <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> About Me</h2>
                   <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b-2"></div>
                </div> */}
-               <div className="flex px-16 flex-wrap">
+               <div className="flex px-4 lg:px-16 flex-wrap">
                   {projectCards}
                </div>
             </div>

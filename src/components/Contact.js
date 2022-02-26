@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         
-        <div className="py-20 px-16 overflow-hidden relative z-10">
+        <div className="py-20 px-4 lg:px-16 overflow-hidden relative z-10">
             <div className="container">
                 <div
                     className="mb-5 flex items-center max-w-md"
