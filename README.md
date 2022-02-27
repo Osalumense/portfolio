@@ -16,5 +16,6 @@ To run this project in your local machine:
 - Run ```npm install``` to install the dependencies
 - Run ```npm start``` to serve the app on your local machine.
 
-Feel free to make edits and customize to your taste. 
+Feel free to make edits and customize 
+. 
 Don't forget to star the repo if you like it.
