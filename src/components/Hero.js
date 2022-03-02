@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from '../components/Navigation/NavBar';
-// import heroImg from '../assets/images/portfolio-img.png';
 import cv from '../assets/Akugbe_Stephen_CV.pdf';
 import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
