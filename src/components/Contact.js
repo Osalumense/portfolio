@@ -9,24 +9,11 @@ const Contact = () => {
                     className="mb-5 flex items-center max-w-md"
                 >
                     <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> Contact Me</h2>
-                    {/* <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b"></div> */}
                 </div>
                 <div className="flex flex-col text-justify lg:flex-row text-slate-900 dark:text-gray-200 lg:justify-between -mx-4">
                 
                     <div className="w-full lg:w-1/2 xl:w-6/12 px-4">
                         <div className="max-w-[570px] mb-12 lg:mb-0">
-                        {/* <h2
-                            className="
-                            mb-6
-                            uppercase
-                            font-bold
-                            sm:text-2xl
-                            lg:text-4xl
-                            xl:text-5xl
-                            "
-                            >
-                            Send me a Message
-                        </h2> */}
                         <p className="text-base text-xl text-body-color leading-relaxed mb-9">
                             I am open to work and collaborations. Send me a message let us build something amazing together.
                         </p>
