@@ -12,7 +12,7 @@ const Hero = () => {
                     <NavBar />
                 </div>
                 
-                <div className="max-w-screen mt-12 p-2 md:p-12" data-aos="zoom-in">
+                <div className="max-w-screen mt-12 p-4 md:p-12" data-aos="zoom-in">
 
                     <div className="flex bg-transparent flex-col lg:flex-row py-8 justify-between text-center lg:text-left overflow-x-hidden">
                         <div className="lg:w-3/4 flex flex-col lg:mx-8 justify-center" data-aos="zoom-in" data-aos-delay="200">

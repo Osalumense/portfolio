@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className="px-16">
+    <div className="px-4 lg:px-16">
             <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-2 text-slate-900 dark:text-gray-200">Some places I've worked</h2>
             <div className='flex justify-center'>
                 <div className='w-24 border-b-4 border-slate-900 dark:border-gray-200 mb-8'></div>

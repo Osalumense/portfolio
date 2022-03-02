@@ -5,7 +5,7 @@ import aboutImg from '../assets/images/Web Developer.svg';
 
 function About() {
   return (
-    <div className="px-16">
+    <div className="px-4 lg:px-16">
         <div
             className="mb-5 flex items-center max-w-md"
         >
