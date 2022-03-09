@@ -18,4 +18,4 @@ To run this project in your local machine:
 
 Feel free to make edits and customize 
 . 
-Don't forget to star the repo if you like it.
+Don't forget to give the repo a star if you like it.
