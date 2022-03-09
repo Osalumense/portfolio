@@ -88,6 +88,9 @@ const Projects = () => {
                <div className="flex px-4 lg:px-16 flex-wrap">
                   {projectCards}
                </div>
+               <div className="flex justify-center">
+                  <a className="text-white bg-gradient-to-r from-slate-800 via-zinc-500 to-black  dark:from-yellow-400 dark:to-slate-600 dark:via-zinc-400 hover:bg-blue-800 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0 mt-4" href="https://github.com/Osalumense" target="_blank" rel="noopener noreferrer">View other projects</a>
+               </div>
             </div>
          </section>
          <Modal canShow={showModal} updateModalState={toggleModal} props={projects}/>
