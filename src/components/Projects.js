@@ -23,7 +23,7 @@ const Projects = () => {
          
    <>
       <div 
-      className="w-full md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500"
+      className="w-full md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500" data-aos="fade-up" data-aos-delay="500"
       >
                      <div className="rounded-md shadow-lg bg-gray-100 dark:bg-slate-800 overflow-hidden mb-10">
                      <div className="p-4 text-center">
@@ -73,23 +73,15 @@ const Projects = () => {
    })
     return (
       <ModalContext.Provider value={{ showModal, toggleModal, projects}}>
-         <section className=" dark:bg-slate-900 mx-auto pt-20 pb-10 lg:pb-20">
+         <section className=" dark:bg-slate-900 mx-auto pt-20 pb-10 lg:pb-20" data-aos="fade-up">
             <div className="">
                <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-8 text-slate-900 dark:text-gray-200">Portfolio</h2>
-               {/* <div className='flex justify-center'>
-                    <div className='w-24 border-b-4 border-slate-900 dark:border-gray-200 mb-8'></div>
-               </div> */}
-               {/* <div
-                  className="mb-5 flex items-center max-w-md"
-               >
-                  <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> About Me</h2>
-                  <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b-2"></div>
-               </div> */}
+
                <div className="flex px-4 lg:px-16 flex-wrap">
                   {projectCards}
                </div>
                <div className="flex justify-center">
-                  <a className="text-white bg-gradient-to-r from-slate-800 via-zinc-500 to-black  dark:from-yellow-400 dark:to-slate-600 dark:via-zinc-400 hover:bg-blue-800 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0 mt-4" href="https://github.com/Osalumense" target="_blank" rel="noopener noreferrer">View other projects</a>
+                  <a className="text-white bg-yellow-400 hover:bg-yellow-300 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center px-6 py-3 my-4 text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0 mt-4" href="https://github.com/Osalumense" target="_blank" rel="noopener noreferrer">View all projects</a>
                </div>
             </div>
          </section>

@@ -12,17 +12,18 @@ const Hero = () => {
                     <NavBar />
                 </div>
                 
-                <div className="max-w-screen mt-12 p-4 md:p-12" data-aos="zoom-in">
+                <div className="max-w-screen mt-12 p-4 md:p-12">
 
-                    <div className="flex bg-transparent flex-col lg:flex-row py-8 justify-between text-center lg:text-left overflow-x-hidden">
-                        <div className="lg:w-3/4 flex flex-col lg:mx-8 justify-center" data-aos="zoom-in" data-aos-delay="200">
+                    <div className="flex bg-transparent flex-col lg:flex-row py-8 justify-between text-center lg:text-left overflow-hidden">
+                        <div className="lg:w-3/4 flex flex-col lg:mx-8 justify-center">
                             <h3 
-                                className="mb-5 md:text-4xl text-xl font-bold text-slate-800 dark:text-slate-300"
+                                className="mb-5 md:text-4xl text-xl font-bold text-slate-800 dark:text-slate-300" data-aos="fade-up" data-aos-delay="200"
                             >
                                 Hello, I'm
                             </h3>
                             <h1 
                                 className="text-3xl lg:text-5xl font-bold mb-6"
+                                data-aos="fade-up" data-aos-delay="400"
                             >
                                 <span
                                     className="bg-gradient-to-br  from-slate-800 via-zinc-500 to-black dark:from-yellow-400 dark:to-yellow-50 text-transparent bg-clip-text"
@@ -32,6 +33,7 @@ const Hero = () => {
                             </h1>
                             <h3
                                 className="text-5xl lg:text-7xl text-gray-900 dark:text-gray-200 font-bold"
+                                data-aos="zoom-in-up" data-aos-delay="700"
                             >
                                 A Full Stack 
                                 <span 
@@ -49,10 +51,13 @@ const Hero = () => {
                                     </span>
                                 </span>
                             </h3>
-                            <div className="mt-8 space-x-0 md:space-x-6 md:mb-8">
+                            <div 
+                                className="mt-8 space-x-0 md:space-x-6 md:mb-8"
+                                data-aos="fade-up" data-aos-delay="900"
+                            >
                                 <a 
                                     href={cv} 
-                                    className="text-white bg-gradient-to-r from-slate-800 via-zinc-500 to-black  dark:from-yellow-400 dark:to-slate-600 dark:via-zinc-500 hover:bg-blue-800 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0"
+                                    className="text-white bg-yellow-400 hover:bg-yellow-300 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center px-6 py-3 my-4 mx-3 group text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0"
                                     download
                                 >
                                     Download CV
@@ -60,7 +65,7 @@ const Hero = () => {
                                 </a>
                                 <a 
                                     href="#_" 
-                                    className="inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg text-white bg-gray-500 hover:scale-90 transition ease-in duration-500 shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                                    className="inline-flex items-center justify-center px-6 py-3 my-4 mx-3 text-lg text-white bg-gray-500 hover:scale-90 transition ease-in duration-500 shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                         Let's Talk
                                         <FiNavigation className="w-4 h-4 ml-1 text-2xl"/>
                                 </a>

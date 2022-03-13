@@ -5,7 +5,7 @@ import aboutImg from '../assets/images/Web Developer.svg';
 
 function About() {
   return (
-    <div className="px-4 lg:px-16">
+    <div className="px-4 lg:px-16" data-aos="fade-up">
         <div
             className="mb-5 flex items-center max-w-md"
         >
@@ -13,11 +13,11 @@ function About() {
             {/* <div className="ml-2 border-slate-900 dark:border-gray-200 flex-grow border-b"></div> */}
         </div>
 
-        <div className="mt-4 flex items-center flex-col-reverse lg:flex-row lg:justify-between">
-            <div className="text-gray-600 dark:text-gray-200 mb-4 text-justify font-medium text-lg lg:w-1/2">
+        <div className="mt-4 flex items-center flex-col-reverse lg:flex-row lg:justify-between" data-aos="fade-up">
+            <div className="text-gray-600 dark:text-gray-200 mb-4 text-justify font-medium text-lg lg:w-1/2" data-aos="fade-up" data-aos-delay="200">
                 <p>I am a Fullstack web developer with over 2 years industry experience in building web applications. I enjoy building scalable software applications and I love learning new technologies in my leisure. I look forward to building mobile applications using React Native and Flutter soon.</p>
                 <p className="mt-5">Skills: </p>
-                <div class="grid grid-cols-3 gap-4 mt-4 sm:grid-cols-6 lg:grid-cols-12 sm:px-8 xl:px-0">
+                <div class="grid grid-cols-3 gap-4 mt-4 sm:grid-cols-6 lg:grid-cols-12 sm:px-8 xl:px-0" data-aos="fade-up" data-aos-delay="500">
 
                     <div class="relative flex flex-row items-center col-auto md:col-span-3  p-2 overflow-hidden bg-gray-100 dark:bg-slate-800 hover:scale-90 transition duration-500 cursor-pointer shadow-lg rounded-xl">
                         <div class="text-gray-200 rounded-full">
@@ -107,7 +107,7 @@ function About() {
 
             </div>
             <div className="text-gray-600 dark:text-gray-200 text-base lg:w-1/2">
-                <img src={aboutImg} className="h-64 mx-auto mb-4" alt="About__me"/>
+                <img src={aboutImg} className="h-64 mx-auto mb-4" alt="About__me" />
             </div>
              
         </div>
