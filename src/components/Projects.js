@@ -32,7 +32,15 @@ const Projects = () => {
                                  {item.details.title}
                               </h3>
                            </h3>
-                           <p className="text-base font-medium text-body-color leading-relaxed my-4 text-slate-900 dark:text-gray-200">
+                           <p 
+                              className="
+                              text-base 
+                              font-medium
+                              text-body-color 
+                              leading-relaxed
+                              my-4
+                              text-slate-900
+                              dark:text-gray-200">
                               {item.overview}
                            </p>
                            <button
@@ -81,11 +89,42 @@ const Projects = () => {
                   {projectCards}
                </div>
                <div className="flex justify-center">
-                  <a className="text-white bg-yellow-400 hover:bg-yellow-300 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center px-6 py-3 my-4 text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0 mt-4" href="https://github.com/Osalumense" target="_blank" rel="noopener noreferrer">View all projects</a>
+                  <a 
+                     className="
+                     text-white 
+                     bg-yellow-400 
+                     hover:bg-yellow-300 
+                     hover:scale-90 
+                     transition 
+                     ease-in 
+                     duration-500 
+                     inline-flex 
+                     items-center 
+                     justify-center 
+                     px-6 
+                     py-3 
+                     my-4 
+                     text-lg 
+                     shadow-xl 
+                     rounded-2xl 
+                     group 
+                     sm:w-auto 
+                     sm:mb-0 
+                     mt-4" 
+                     href="https://github.com/Osalumense" 
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     >
+                     View all projects
+                     </a>
                </div>
             </div>
          </section>
-         <Modal canShow={showModal} updateModalState={toggleModal} props={projects}/>
+         <Modal 
+            canShow={showModal} 
+            updateModalState={toggleModal} 
+            props={projects}
+         />
       </ModalContext.Provider>
     )
 

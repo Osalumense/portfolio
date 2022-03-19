@@ -6,6 +6,7 @@ export const projectsArr = [
            details: {
               title: 'Motivational Quotes App',
               description: 'Motivational Quotes is a simple web application that generates random motivational quotes, it has both light and dark modes and saves user preferred mode to local storage. In addition, the quotes can easily be shared directly to Facebook and Twitter with just the click of a button.',
+              techStack: ['HTML', 'Tailwind CSS', 'React', 'Vercel'],
               ghLink: 'https://github.com/Osalumense/motivational-quotes-app',
               liveLink: 'https://motivational-quotes-app.vercel.app/',
            }
@@ -17,6 +18,7 @@ export const projectsArr = [
            details: {
               title: 'Analogue Clock',
               description: 'A simple analogue clock designed using HTML, CSS and Javacript',
+              techStack: ['HTML', 'CSS', 'Javascript', 'Vercel'],
               ghLink: 'https://github.com/Osalumense/Analogue-Clock',
               liveLink: 'https://analogue-clock-nu.vercel.app/',
            }
@@ -28,10 +30,23 @@ export const projectsArr = [
             details: {
                title: 'React Web Template',
                description: 'This is a website designed using the React framework and TailwindCSS for small business and startups',
+               techStack: ['HTML', 'Tailwind CSS', 'React', 'Netlify'],
                ghLink: 'https://github.com/Osalumense/mld',
                liveLink: 'https://mld-prototype.netlify.app/',
             }
          },
+         {
+            id: 4,
+            img: 'https://user-images.githubusercontent.com/43953425/149300286-e1f3104f-99f9-49d6-83fe-425e2c7b3108.png',
+            overview: 'This portfolio website designed using React',
+            details: {
+               title: 'My Portfolio Website',
+               description: 'This is my portfolio website designed using the React framework and TailwindCSS. In this project, I made use of the Context API, React hooks (useState, useEffect).',
+               techStack: ['HTML', 'Tailwind CSS', 'React', 'Netlify'],
+               ghLink: 'https://github.com/Osalumense/portfolio',
+               liveLink: 'https://akugbe-stephen.netlify.app/',
+            }
+         }
         
      ]
 
