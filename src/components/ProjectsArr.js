@@ -46,6 +46,18 @@ export const projectsArr = [
                ghLink: 'https://github.com/Osalumense/portfolio',
                liveLink: 'https://akugbe-stephen.netlify.app/',
             }
+         },
+         {
+            id: 5,
+            img: 'https://user-images.githubusercontent.com/43953425/159142872-6c966c1d-7e6c-4250-a292-d91a1566fc3f.PNG',
+            overview: 'A simple web development agency website',
+            details: {
+               title: 'Simple web development agency website',
+               description: 'This is a simple web development agency template designed using Bootstrap and Javacsript.',
+               techStack: ['HTML', 'Bootstrap', 'Javascipt', 'jQuery'],
+               ghLink: 'https://github.com/Osalumense/ludayhomepage/tree/main',
+               liveLink: 'https://osalumense.github.io/ludayhomepage/',
+            }
          }
         
      ]
