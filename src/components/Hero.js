@@ -32,20 +32,39 @@ const Hero = () => {
                                 </span>
                             </h1>
                             <h3
-                                className="text-5xl lg:text-7xl text-gray-900 dark:text-gray-200 font-bold"
-                                data-aos="zoom-in-up" data-aos-delay="700"
+                                className="text-5xl 
+                                lg:text-6xl 
+                                text-gray-900 
+                                dark:text-gray-200 
+                                font-bold"
+                                data-aos="zoom-in-up" 
+                                data-aos-delay="700"
                             >
                                 A Full Stack 
                                 <span 
-                                    class="block before:absolute before:-inset-1 before:-skew-y-3
-                                    before:p-4 mt-4 lg:mt-0
+                                    class="
+                                    block 
+                                    before:absolute 
+                                    before:-inset-1 
+                                    before:-skew-y-3
+                                    before:p-4 
+                                    mt-8 
+                                    lg:mt-0
                                     hover:skew-y-6
                                     cursor-pointer
-                                    transition-all ease-in duration-500
-                                    before:bg-yellow-400 ml-2 relative inline-block"
+                                    transition-all 
+                                    ease-in 
+                                    duration-500
+                                    before:bg-yellow-400 
+                                    ml-2 
+                                    relative 
+                                    inline-block"
                                     >
                                     <span 
-                                        class="relative text-white text-5xl m-3"
+                                        class="
+                                        relative 
+                                        text-white 
+                                        m-3"
                                     >
                                         Web Developer
                                     </span>

@@ -13,70 +13,100 @@ const Projects = () => {
    const setIdn = (val) => {
       updateIdn(idn = val-1);
    };
-   console.log(idn)
 
    let projects
    const projectCards = projectsArr.map((item, key) => {
-      projects=projectsArr[idn].details 
-      console.log(projects)    
-      return (
+      projects=projectsArr[idn].details
+      return (         
          
-   <>
-      <div 
-      className="w-full md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500" data-aos="fade-up" data-aos-delay="500"
-      >
-                     <div className="rounded-md shadow-lg bg-gray-100 dark:bg-slate-800 overflow-hidden mb-10">
-                     <div className="p-4 text-center">
-                           <h3>
-                              <h3 className="text-3xl font-semibold text-slate-900 dark:text-gray-200">
-                                 {item.details.title}
-                              </h3>
-                           </h3>
-                           <p 
-                              className="
-                              text-base 
-                              font-medium
-                              text-body-color 
-                              leading-relaxed
-                              my-4
-                              text-slate-900
-                              dark:text-gray-200">
-                              {item.overview}
-                           </p>
-                           <button
+         <>
+            <div 
+            className="w-full
+            md:w-1/2 lg:w-1/3 p-2 my-2 hover:scale-90 transition ease-in-out duration-500" data-aos="fade-up" data-aos-delay="500"
+            >
+               <div className="rounded-md 
+               h-full
+               shadow-lg 
+               bg-gray-100 
+               dark:bg-slate-800 
+               overflow-hidden mb-10">
+                  <div className="p-4 text-center">
+                     <h3 className="text-3xl font-semibold text-slate-900 dark:text-gray-200">
+                        {item.details.title}
+                     </h3>
+                     <p 
+                        className="
+                        text-base 
+                        font-medium
+                        text-body-color 
+                        leading-relaxed
+                        my-4
+                        text-slate-900
+                        dark:text-gray-200">
+                        {item.overview}
+                     </p>
+                     <div className="overflow-auto mb-3">
+                        {item.details.techStack.map((stack) =>
+                           <li 
                               className="
                               inline-block
-                              py-2
-                              px-7
-                              border border-gray-200
-                              rounded-full
-                              text-base text-body-color
-                              font-medium
-                              hover:border-primary hover:bg-primary
-                              hover:scale-110
-                              dark:text-gray-200
-                              dark:hover:text-gray-200
-                              transition
-                              ease-in-out 
-                              duration-500
-                              "
-                              onClick={() => {
-                                 setIdn(item.id);
-                                 toggleModal();
-                              }}
-                              >
-                           View Details
-                           </button>
-                        </div>
-                        <img
-                           src={item.img}
-                           alt="cards"
-                           className="w-full rounded-lg p-4"
-                           />
-                        
+                              rounded-full 
+                              text-white 
+                              bg-yellow-400 
+                              hover:bg-yellow-300 
+                              duration-300 
+                              text-xs 
+                              font-bold 
+                              mr-1 
+                              md:mr-2 
+                              mb-2 
+                              px-2 
+                              md:px-4 
+                              py-1 
+                              opacity-90 
+                              hover:opacity-100
+                              hover:scale-105
+                              cursor-pointer">
+                              {stack}
+                           </li>
+                        )}
                      </div>
-      </div>
-   </>
+                     <button
+                        className="
+                        inline-block
+                        py-2
+                        px-7
+                        border 
+                        border-yellow-300
+                        hover:bg-yellow-300
+                        hover:text-white
+                        rounded-full
+                        text-base text-body-color
+                        font-medium
+                        hover:border-primary hover:bg-primary
+                        hover:scale-110
+                        dark:text-gray-200
+                        dark:hover:text-gray-200
+                        transition
+                        ease-in-out 
+                        duration-500
+                        "
+                        onClick={() => {
+                           setIdn(item.id);
+                           toggleModal();
+                        }}
+                        >
+                     View Details
+                     </button>
+                  </div>
+                  <img
+                     src={item.img}
+                     alt="cards"
+                     className="w-full rounded-lg p-4"
+                  />
+               </div>
+            </div>
+         </>
       )
    })
     return (

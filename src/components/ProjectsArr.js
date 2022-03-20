@@ -37,7 +37,7 @@ export const projectsArr = [
          },
          {
             id: 4,
-            img: 'https://user-images.githubusercontent.com/43953425/149300286-e1f3104f-99f9-49d6-83fe-425e2c7b3108.png',
+            img: 'https://user-images.githubusercontent.com/43953425/159141624-b122104b-3215-44d5-9127-0c96ba33cbd9.PNG',
             overview: 'This portfolio website designed using React',
             details: {
                title: 'My Portfolio Website',
