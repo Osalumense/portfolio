@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import { ModalContext } from "./Context";
 import Modal from '../components/Modal';
 import { projectsArr } from './ProjectsArr';
-// import Img from '../assets/images/portfolio-img.png';
 
 const Projects = () => {
    const [showModal, updateShowModal] = useState(false);
