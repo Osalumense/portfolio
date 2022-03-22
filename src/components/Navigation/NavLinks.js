@@ -16,15 +16,12 @@ function NavLinks () {
                 <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/#about">
                     About Me
                 </HashLink>
-                {/* <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#services">
-                    Projects
-                </HashLink> */}
-                <Link className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" to="/">
+                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/">
                     Portfolio
-                </Link>
-                <Link className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" to="#">
+                </HashLink>
+                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/#about">
                     Contact Me
-                </Link>
+                </HashLink>
                 <Link className="font-extrabold text-gray-500 hover:text-blue-900 transition duration-500 ease-in-out hidden lg:inline-block" to="#">
                         {theme === 'dark' ? (
                             <FaSun
