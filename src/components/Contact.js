@@ -3,17 +3,29 @@ import React from 'react';
 const Contact = () => {
     return (
         
-        <div className="py-20 px-4 lg:px-16 overflow-hidden relative z-10" data-aos="fade-up" id="contact">
-            <div className="container">
+        <div 
+            className="py-20 px-4 lg:px-16 overflow-hidden relative z-10" data-aos="fade-up" 
+            id="contact"
+        >
+            <div 
+                className="container"
+            >
                 <div
                     className="mb-5 flex items-center max-w-md"
                 >
                     <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> Contact Me</h2>
                 </div>
-                <div className="flex flex-col text-justify lg:flex-row text-slate-900 dark:text-gray-200 lg:justify-between -mx-4">
+                <div 
+                    className="flex flex-col text-justify lg:flex-row text-slate-900 dark:text-gray-200 lg:justify-between -mx-4"
+                >
                 
-                    <div className="w-full lg:w-1/2 xl:w-6/12 px-4" data-aos="fade-up" data-aos-delay="200">
-                        <div className="max-w-[570px] mb-12 lg:mb-0">
+                    <div 
+                        className="w-full lg:w-1/2 xl:w-6/12 px-4" data-aos="fade-up" 
+                        data-aos-delay="200"
+                    >
+                        <div 
+                            className="max-w-[570px] mb-12 lg:mb-0"
+                        >
                         <p className="text-base text-xl text-body-color leading-relaxed mb-9">
                             I am open to work and collaborations. Send me a message let us build something amazing together.
                         </p>
@@ -23,7 +35,7 @@ const Contact = () => {
                     </div>
                     <div className="w-full lg:w-1/2 xl:w-5/12 px-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
                         <div className="bg-gray-100 dark:bg-slate-800 relative rounded-lg p-8 sm:p-12 shadow-lg">
-                        <form>
+                        <form name="portfolio_contact" netlify>
                             <div className="mb-6">
                                 <input
                                     type="text"

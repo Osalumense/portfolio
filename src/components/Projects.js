@@ -16,8 +16,7 @@ const Projects = () => {
    let projects
    const projectCards = projectsArr.map((item, key) => {
       projects=projectsArr[idn].details
-      return (         
-         
+      return (   
          <>
             <div 
             className="w-full
