@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../components/Navigation/NavBar';
 import { HashLink } from 'react-router-hash-link';
 import cv from '../assets/Akugbe_Stephen_CV.pdf';
-import { FaArrowDown } from 'react-icons/fa';
+import { FaArrowDown, FaGithub, FaLinkedin, FaTwitterSquare, FaDev } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
 
@@ -80,7 +80,7 @@ const Hero = () => {
                                 </span>
                             </h1>
                             <h3
-                                className="text-5xl 
+                                className="text-4xl 
                                 lg:text-6xl 
                                 text-gray-900 
                                 dark:text-gray-200 
@@ -136,6 +136,33 @@ const Hero = () => {
                                         Let's Talk
                                         <FiNavigation className="w-4 h-4 ml-1 text-2xl"/>
                                 </HashLink>
+                            </div>
+                            <div
+                                className="flex flex-row my-2 items-center md:space-x-6 mx-3 justify-center 
+                                lg:justify-start"
+                                data-aos="zoom-in-up" 
+                                data-aos-delay="700"
+                            >
+                                <a href="https://github.com/Osalumense" rel="noreferrer" target="_blank">
+                                    <FaGithub className="text-gray-600 hover:text-gray-500 
+                                    dark:text-white 
+                                    dark:hover:text-gray-200 
+                                    w-8 h-8"/>
+                                </a>
+                                <a href="https://linkedin.com/in/akugbe-stephen" rel="noreferrer" target="_blank">
+                                    <FaLinkedin className="text-blue-600 hover:text-blue-500 w-8 h-8"/>
+                                </a>
+                                <a href="https://twitter.com/Itz_Steavean" rel="noreferrer" target="_blank">
+                                    <FaTwitterSquare className="text-blue-400 hover:text-blue-300
+                                    w-8 h-8"/>
+                                </a>
+                                <a href="https://dev.to/osalumense" rel="noreferrer" target="_blank">
+                                    <FaDev className="text-gray-800 hover:text-gray-700 
+                                    dark:text-white 
+                                    dark:hover:text-gray-200 
+                                    w-8 h-8"/>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>

@@ -7,6 +7,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './pages/Home';
+import Thanks from './pages/Thanks';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -48,6 +49,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/thanks" element={<Thanks />} /> 
       </Routes>
     </Router>
     {showButton && (

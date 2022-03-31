@@ -35,7 +35,16 @@ const Contact = () => {
                     </div>
                     <div className="w-full lg:w-1/2 xl:w-5/12 px-4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
                         <div className="bg-gray-100 dark:bg-slate-800 relative rounded-lg p-8 sm:p-12 shadow-lg">
-                        <form name="portfolio_contact" netlify>
+                        <form 
+                            name="portfolio_contact"
+                            method="POST"
+                            data-netlify="true"
+                        >
+                            <input 
+                                type="hidden"
+                                name="form-name"
+                                value="portfolio_contact"    
+                            />
                             <div className="mb-6">
                                 <input
                                     type="text"
@@ -80,7 +89,7 @@ const Contact = () => {
                             </div>
                             <div className="mb-6">
                                 <input
-                                    type="text"
+                                    inputMode="numeric"
                                     placeholder="Your Phone"
                                     className="
                                     w-full
