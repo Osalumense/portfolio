@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 function App() {
   const [showButton, setShowButton] = useState(false);
 
-  //Initialize animate on scroll
+  // Initialize animate on scroll
   useEffect(() => {
     const aos_init = () => {
       AOS.init({
@@ -40,7 +40,7 @@ function App() {
     const scrollToTop = () => {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth' // for smoothly scrolling
+        behavior: 'smooth'
       });
     }; 
   return (
