@@ -53,6 +53,8 @@ const Contact = () => {
                                     focus-visible:shadow-none
                                     focus:border-primary
                                     "
+                                    name="full_name"
+                                    id="full_name"
                                     />
                             </div>
                             <div className="mb-6">
@@ -72,6 +74,8 @@ const Contact = () => {
                                     focus-visible:shadow-none
                                     focus:border-primary
                                     "
+                                    name="email"
+                                    id="email"
                                     />
                             </div>
                             <div className="mb-6">
@@ -91,6 +95,8 @@ const Contact = () => {
                                     focus-visible:shadow-none
                                     focus:border-primary
                                     "
+                                    name="phone_number"
+                                    id="phone_number"
                                     />
                             </div>
                             <div className="mb-6">
@@ -110,6 +116,8 @@ const Contact = () => {
                                     focus-visible:shadow-none
                                     focus:border-primary
                                     "
+                                    name="message"
+                                    id="message"
                                     ></textarea>
                             </div>
                             <div>
