@@ -39,12 +39,12 @@ const Contact = () => {
                             name="portfolio_contact"
                             method="POST"
                             data-netlify="true"
+                            action="/thanks"
                         >
                             <input 
                                 type="hidden"
                                 name="form-name"
                                 value="portfolio_contact"
-                                action="/thanks"
                             />
                             <div className="mb-6">
                                 <input
