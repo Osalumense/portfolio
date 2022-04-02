@@ -138,7 +138,7 @@ const Hero = () => {
                                 </HashLink>
                             </div>
                             <div
-                                className="flex flex-row my-2 items-center md:space-x-6 mx-3 justify-center 
+                                className="flex flex-row my-2 items-center space-x-6 mx-3 justify-center 
                                 lg:justify-start"
                                 data-aos="zoom-in-up" 
                                 data-aos-delay="700"
