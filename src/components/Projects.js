@@ -109,7 +109,8 @@ const Projects = () => {
    })
     return (
       <ModalContext.Provider value={{ showModal, toggleModal, projects}}>
-         <section className=" dark:bg-slate-900 mx-auto pt-20 pb-10 lg:pb-20" data-aos="fade-up">
+         <section className=" dark:bg-slate-900 mx-auto pt-20 pb-10 lg:pb-20" data-aos="fade-up" id="projects">
+         
             <div className="">
                <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-8 text-slate-900 dark:text-gray-200">Portfolio</h2>
 

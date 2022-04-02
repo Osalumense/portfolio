@@ -5,7 +5,11 @@ import aboutImg from '../assets/images/Web Developer.svg';
 
 function About() {
   return (
-    <div className="px-4 lg:px-16" data-aos="fade-up">
+    <section 
+        className="px-4 pt-20 lg:px-16" 
+        data-aos="fade-up"
+        id="about"
+    >
         <div
             className="mb-5 flex items-center max-w-md"
         >
@@ -111,7 +115,7 @@ function About() {
             </div>
              
         </div>
-    </div>
+    </section>
   )
 }
 

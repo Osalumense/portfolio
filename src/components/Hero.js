@@ -8,9 +8,9 @@ import { FiNavigation } from 'react-icons/fi';
 
 const Hero = () => {
     return ( 
-                <>
+        <>
             <div 
-                className="hero" 
+                className="hero py-4" 
                 id='hero'
             >
                 <div>

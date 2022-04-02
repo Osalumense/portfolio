@@ -16,10 +16,10 @@ function NavLinks () {
                 <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/#about">
                     About Me
                 </HashLink>
-                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/">
+                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/#projects">
                     Portfolio
                 </HashLink>
-                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/#about">
+                <HashLink className="px-4 text-xl font-bold text-gray-500 hover:text-yellow-400" smooth to="/#contact">
                     Contact Me
                 </HashLink>
                 <Link className="font-extrabold text-gray-500 hover:text-blue-900 transition duration-500 ease-in-out hidden lg:inline-block" to="#">
