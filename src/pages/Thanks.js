@@ -65,7 +65,7 @@ function Thanks() {
                         <h2 
                             className="text-xl font-bold py-8"
                             data-aos="zoom-in-down"
-                            data-aos-delay="400"
+                            data-aos-delay="300"
                         >
                         Thanks for sending a message, I should respond in a couple of hours.
                         </h2>

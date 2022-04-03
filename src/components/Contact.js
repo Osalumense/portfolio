@@ -39,7 +39,7 @@ const Contact = () => {
                             name="portfolio_contact"
                             method="POST"
                             data-netlify="true"
-                            action="/?success=true"
+                            action="/thanks"
                         >
                             <input 
                                 type="hidden"

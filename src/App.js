@@ -8,22 +8,20 @@ import {
 } from 'react-router-dom';
 import Home from './pages/Home';
 import Thanks from './pages/Thanks';
-import SuccessModal from './components/SuccessModal';
+// import SuccessModal from './components/SuccessModal';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
-  const [isSuccessOpen, setIsSuccessOpen] = useState(false);
-  const toggleModal = () => setIsSuccessOpen(state => !state);
+  // const [isSuccessOpen, setIsSuccessOpen] = useState(false);
+  // const [success, setSuccess] = useState(false);
 
-  const [success, setSuccess] = useState(false);
-
-  useEffect(() => {
-    if ( window.location.search.includes('success=true') ) {
-      setSuccess(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if ( window.location.search.includes('success=true') ) {
+  //     setSuccess(true);
+  //   }
+  // }, []);
 
   // Initialize animate on scroll
   useEffect(() => {
@@ -71,9 +69,8 @@ function App() {
             < FaArrowUp className="group-hover:translate-y-[-.3rem] transition duration-500"/>
           </button>
     )}
-    {success && <SuccessModal canShow={isSuccessOpen} updateModalState={toggleModal}  /> }
+    {/* {success && <SuccessModal setIsSuccessOpen={setIsSuccessOpen} /> } */}
   </div>
-    
   );
 }
 
