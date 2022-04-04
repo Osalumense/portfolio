@@ -8,20 +8,11 @@ import {
 } from 'react-router-dom';
 import Home from './pages/Home';
 import Thanks from './pages/Thanks';
-// import SuccessModal from './components/SuccessModal';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
 function App() {
   const [showButton, setShowButton] = useState(false);
-  // const [isSuccessOpen, setIsSuccessOpen] = useState(false);
-  // const [success, setSuccess] = useState(false);
-
-  // useEffect(() => {
-  //   if ( window.location.search.includes('success=true') ) {
-  //     setSuccess(true);
-  //   }
-  // }, []);
 
   // Initialize animate on scroll
   useEffect(() => {
@@ -64,12 +55,29 @@ function App() {
     {showButton && (
         <button 
           onClick={scrollToTop} 
-          className="fixed bottom-0 right-0 z-20 flex items-center justify-center w-10 h-10 mb-8 mr-8 overflow-hidden bg-yellow-400 hover:bg-yellow-300 text-gray-50 transition-all ease-in-out duration-500 rounded group"
+          className="fixed 
+          bottom-0 
+          right-0 
+          z-20 
+          flex 
+          items-center 
+          justify-center 
+          w-10 
+          h-10 
+          mb-8 
+          mr-8 
+          overflow-hidden 
+          bg-yellow-400 
+          hover:bg-yellow-300 
+          text-gray-50 
+          transition-all 
+          ease-in-out 
+          duration-500 
+          rounded"
           >
-            < FaArrowUp className="group-hover:translate-y-[-.3rem] transition duration-500"/>
+            <FaArrowUp className="group-hover:translate-y-[-.3rem] transition duration-500"/>
           </button>
     )}
-    {/* {success && <SuccessModal setIsSuccessOpen={setIsSuccessOpen} /> } */}
   </div>
   );
 }
