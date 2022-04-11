@@ -3,7 +3,6 @@ import React from 'react'
 const Services = () => {
   return (
     <div className="px-4 lg:px-16">
-            {/* <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mb-2 text-slate-900 dark:text-gray-200">Work Experience</h2> */}
           <div className="mt-4 flex items-center flex-col-reverse lg:flex-row lg:justify-between" data-aos="fade-up">
             <div className="text-gray-600 dark:text-gray-200 mx-4 text-justify font-medium text-lg lg:w-1/2" data-aos="fade-up" data-aos-delay="200">
               <h2 className="flex items-center justify-center text-4xl font-bold tracking-wide mt-4 mb-12 text-slate-900 dark:text-gray-200">Education</h2>
