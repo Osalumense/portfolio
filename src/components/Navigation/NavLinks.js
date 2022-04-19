@@ -26,12 +26,12 @@ function NavLinks () {
                         {theme === 'dark' ? (
                             <FaSun
                                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                                className=" text-gray-500 dark:text-gray-400 text-2xl inline-block"
+                                className="hover:animate-pulse text-gray-500 dark:text-gray-400 text-2xl inline-block"
                             />
                         ) : (
                                 <FaMoon
                                     onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                                    className="text-gray-500 dark:text-gray-400 text-2xl inline-block"
+                                    className="hover:animate-pulse text-gray-500 dark:text-gray-400 text-2xl inline-block"
                                 />
                             )}
                 </Link>
