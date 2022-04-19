@@ -18,7 +18,16 @@ function About() {
         </div>
 
         <div className="mt-4 flex items-center flex-col-reverse lg:flex-row lg:justify-between" data-aos="fade-up">
-            <div className="text-gray-600 dark:text-gray-200 mb-4 text-justify font-medium text-lg lg:w-1/2" data-aos="fade-up" data-aos-delay="200">
+            <div 
+                className="text-gray-600 
+                dark:text-gray-200 
+                mb-4 
+                text-justify 
+                font-medium 
+                text-lg 
+                lg:w-1/2
+                first-letter:text-3xl 
+                first-letter:font-semibold" data-aos="fade-up" data-aos-delay="200">
                 <p>I am a Fullstack web developer with over 2 years industry experience in building web applications. I enjoy building scalable software applications and I love learning new technologies in my leisure. I look forward to building mobile applications using React Native and Flutter soon.</p>
                 <p className="mt-5">Skills: </p>
                 <div class="grid grid-cols-3 gap-4 mt-4 sm:grid-cols-6 lg:grid-cols-12 sm:px-8 xl:px-0" data-aos="fade-up" data-aos-delay="500">

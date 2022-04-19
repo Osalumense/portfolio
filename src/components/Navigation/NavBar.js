@@ -37,12 +37,12 @@ const NavBar = () => {
                 </div>
                 
                 <div className="group flex flex-col">
-                    <button className="p-2 lg:hidden text-slate-900 bg-gray-50 dark:bg-transparent dark:text-yellow-400" onClick={handleClick}>
+                    <button className="p-2 lg:hidden text-slate-900 bg-gray-50 dark:bg-transparent dark:text-yellow-400 group duration-500 ease-in-out" onClick={handleClick} id="nav__toggle">
                         {isOpen &&(
-                            <HiX className='text-3xl'/>
+                            <HiX className='text-3xl hover:rotate-45' id='nav__toggle__icon'/>
                         )}
                         {!isOpen &&(
-                            <HiMenuAlt1 className='text-3xl'/>
+                            <HiMenuAlt1 className='text-3xl hover:rotate-45' id='nav__toggle__icon'/>
                         )}
                     </button>
                     <div className='hidden space-x-4 flex items-center mr-8 py-4 lg:inline-block'>
