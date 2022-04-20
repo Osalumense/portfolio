@@ -1,4 +1,5 @@
 import React from "react";
+import '../index.css';
 import { FaTimes } from "react-icons/fa";
 
 
@@ -24,7 +25,9 @@ const Modal = ({canShow, updateModalState, props}) => {
             w-auto 
             my-6 
             mx-auto 
-            max-w-3xl">
+            w-full
+            max-w-6xl
+            xl:mx-8">
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-slate-900 outline-none focus:outline-none">
                 {/*header*/}
@@ -42,10 +45,21 @@ const Modal = ({canShow, updateModalState, props}) => {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-gray-300 text-lg leading-relaxed">
+                <div className="mt-4 flex items-center flex-col-reverse lg:flex-row lg:justify-between p-6" data-aos="fade-up">
+                  <div
+                    className="lg:w-1/2"
+                  >
+                    <div className="w-full" >
+                      <iframe title={props.title} src={props.vid} frameborder="0" allowfullscreen allow="autoplay" id="video__demo"></iframe>
+                    </div>
+                  </div>
+                  <div
+                    className="lg:w-1/2"
+                  >
+                    <p className="my-4 text-gray-300 text-lg px-3 leading-relaxed">
                     {props.description}
-                  </p>
+                    </p>
+                  </div>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-center gap-x-6 p-6 rounded-b">

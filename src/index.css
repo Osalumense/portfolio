@@ -17,3 +17,11 @@ a {
     font-family: 'Roboto Slab', serif;
 }
 
+.stand__out__text {
+    font-family: 'Roboto Slab', serif;
+}
+
+#video__demo {
+    width: 100%;
+    height: 30vh;
+}

@@ -76,7 +76,7 @@ const Projects = () => {
                         px-7
                         border 
                         border-yellow-300
-                        hover:bg-yellow-300
+                        hover:bg-yellow-400
                         hover:text-white
                         rounded-full
                         text-base text-body-color
@@ -84,7 +84,7 @@ const Projects = () => {
                         hover:border-primary hover:bg-primary
                         hover:scale-110
                         dark:text-gray-200
-                        dark:hover:text-gray-200
+                        dark:hover:text-white
                         transition
                         ease-in-out 
                         duration-500

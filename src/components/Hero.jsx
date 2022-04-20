@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './Navigation/NavBar';
 import { HashLink } from 'react-router-hash-link';
 import cv from '../assets/Akugbe_Stephen_CV.pdf';
-import { FaArrowDown, FaGithub, FaLinkedin, FaTwitterSquare, FaDev } from 'react-icons/fa';
+import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
 
@@ -39,7 +39,7 @@ const Hero = () => {
                     >
                         <div 
                             className="
-                            lg:w-3/4 
+                            lg:mx-40 
                             flex 
                             flex-col 
                             lg:mx-8 
@@ -47,9 +47,9 @@ const Hero = () => {
                         >
                             <h3 
                                 className="
-                                mb-5 
-                                text-xl
-                                md:text-4xl 
+                                mb-8 
+                                text-2xl
+                                lg:text-5xl 
                                 font-bold 
                                 text-slate-800 
                                 dark:text-slate-300" 
@@ -61,9 +61,10 @@ const Hero = () => {
                             <h1 
                                 className="
                                 text-3xl 
-                                lg:text-5xl 
-                                font-bold 
-                                mb-6"
+                                lg:text-7xl 
+                                font-bold
+                                mb-8 
+                                lg:mb-12"
                                 data-aos="fade-up" 
                                 data-aos-delay="400"
                             >
@@ -81,10 +82,11 @@ const Hero = () => {
                             </h1>
                             <h3
                                 className="text-4xl 
-                                lg:text-6xl 
+                                lg:text-7xl 
                                 text-gray-900 
                                 dark:text-gray-200 
-                                font-bold"
+                                font-bold
+                                lg:mb-12"
                                 data-aos="zoom-in-up" 
                                 data-aos-delay="700"
                             >
@@ -95,7 +97,7 @@ const Hero = () => {
                                     before:absolute 
                                     before:-inset-1 
                                     before:-skew-y-3
-                                    before:p-4 
+                                    before:p-3 
                                     mt-8 
                                     lg:mt-0
                                     hover:skew-y-6
@@ -103,8 +105,9 @@ const Hero = () => {
                                     transition-all 
                                     ease-in 
                                     duration-500
-                                    before:bg-yellow-400 
-                                    ml-2 
+                                    before:bg-yellow-400
+                                    p-3
+                                    ml-4 
                                     relative 
                                     inline-block"
                                     >
@@ -137,40 +140,22 @@ const Hero = () => {
                                         <FiNavigation className="w-4 h-4 ml-1 text-2xl"/>
                                 </HashLink>
                             </div>
-                            <div
-                                className="flex flex-row my-2 items-center space-x-6 mx-3 justify-center 
-                                lg:justify-start"
-                                data-aos="zoom-in-up" 
-                                data-aos-delay="700"
-                            >
-                                <a href="https://github.com/Osalumense" rel="noreferrer" target="_blank">
-                                    <FaGithub className="text-gray-600 hover:text-gray-500 
-                                    dark:text-white 
-                                    dark:hover:text-gray-200 
-                                    w-8 h-8"/>
-                                </a>
-                                <a href="https://linkedin.com/in/akugbe-stephen" rel="noreferrer" target="_blank">
-                                    <FaLinkedin className="text-blue-600 hover:text-blue-500 w-8 h-8"/>
-                                </a>
-                                <a href="https://twitter.com/Itz_Steavean" rel="noreferrer" target="_blank">
-                                    <FaTwitterSquare className="text-blue-400 hover:text-blue-300
-                                    w-8 h-8"/>
-                                </a>
-                                <a href="https://dev.to/osalumense" rel="noreferrer" target="_blank">
-                                    <FaDev className="text-gray-800 hover:text-gray-700 
-                                    dark:text-white 
-                                    dark:hover:text-gray-200 
-                                    w-8 h-8"/>
-                                </a>
-                                
-                            </div>
                         </div>
+                        {/* <div className="lg:w-2/5">
+                        <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" className="rounded-full" alt="hero-bg"/>
+                        </div> */}
+                        
                     </div>
                 </div>
+                
                 <div
-                    class="h-20 w-20 rounded-full bg-yellow-400 absolute animate-pulse top-2 left-2 -ml-10 mt-24"
+                    class="h-24 w-24 rounded-full bg-yellow-400 absolute animate-pulse -top-3 left-2 -ml-10 mt-24"
                 ></div>
+                {/* <div
+                    class="h-72 hidden xl:block w-72 bg-yellow-400 absolute opacity-50 top-8 right-2 -ml-10 mt-24"
+                ></div> */}
             </div>
+            
         </>
      );
 }

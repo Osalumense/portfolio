@@ -16,7 +16,7 @@ const Contact = () => {
                     <h2 className="text-slate-900 dark:text-gray-200 text-3xl font-bold"> Contact Me</h2>
                 </div>
                 <div 
-                    className="flex flex-col text-justify lg:flex-row text-slate-900 dark:text-gray-200 lg:justify-between -mx-4"
+                    className="flex flex-col lg:flex-row lg:items-center text-slate-900 dark:text-gray-200 lg:justify-between -mx-4"
                 >
                 
                     <div 
@@ -26,9 +26,13 @@ const Contact = () => {
                         <div 
                             className="max-w-[570px] mb-12 lg:mb-0"
                         >
-                        <p className="text-base text-xl text-body-color leading-relaxed mb-9">
+                        <p className="text-base text-4xl font-extrabold text-body-color leading-relaxed stand__out__text mb-9 mx-5">
                             I am open to work and collaborations. Send me a message let us build something amazing together.
                         </p>
+                        <p className="text-base text-2xl font-medium text-body-color leading-relaxed mb-9 mx-5">
+                            Based in <span className="font-bold font-bold italic">Nigeria</span>, available worldwide.
+                        </p>
+
                         
 
                         </div>

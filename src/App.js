@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import Home from './pages/Home';
 import Thanks from './pages/Thanks';
+import Socials from './components/Socials';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -50,8 +51,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/thanks" element={<Thanks />} />
+        
       </Routes>
     </Router>
+    <Socials/>
     {showButton && (
         <button 
           onClick={scrollToTop} 

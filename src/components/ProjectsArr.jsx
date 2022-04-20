@@ -5,7 +5,8 @@ export const projectsArr = [
             overview: 'An ecommerce website for a wine shop',
             details: {
                title: 'Dios power wine garage',
-               description: 'This is an ecommerce website for a wine shop located in Nigeria. The website ',
+               description: 'This is an ecommerce website for a wine shop located in Nigeria. The website was designed using WordPress, WooCommerce to setup the shop and Flutterwave was used to handle payments',
+               vid: 'https://streamable.com/e/4rhagy?autoplay=1&loop=0',
                techStack: ['WordPress', 'WooCommerce'],
                ghLink: '',
                liveLink: 'https://dpwinegarage.com/',
@@ -18,6 +19,7 @@ export const projectsArr = [
            details: {
               title: 'Motivational Quotes App',
               description: 'Motivational Quotes is a simple web application that generates random motivational quotes, it has both light and dark modes and saves user preferred mode to local storage. In addition, the quotes can easily be shared directly to Facebook and Twitter with just the click of a button.',
+              vid: 'https://streamable.com/e/10s9wt?autoplay=1',
               techStack: ['HTML', 'Tailwind CSS', 'React', 'Vercel'],
               ghLink: 'https://github.com/Osalumense/motivational-quotes-app',
               liveLink: 'https://motivational-quotes-app.vercel.app/',
@@ -30,6 +32,7 @@ export const projectsArr = [
             details: {
                title: 'React Web Template',
                description: 'This is a website designed using the React framework and TailwindCSS for small business and startups',
+               vid: 'https://streamable.com/e/tek0i5?autoplay=1',
                techStack: ['HTML', 'Tailwind CSS', 'React', 'Netlify'],
                ghLink: 'https://github.com/Osalumense/mld',
                liveLink: 'https://mld-prototype.netlify.app/',
@@ -42,6 +45,7 @@ export const projectsArr = [
             details: {
                title: 'My Portfolio Website',
                description: 'This is my portfolio website designed using the React framework and TailwindCSS. In this project, I made use of the Context API, React hooks (useState, useEffect).',
+               vid: 'https://streamable.com/e/tek0i5?autoplay=1',
                techStack: ['HTML', 'Tailwind CSS', 'React', 'Netlify'],
                ghLink: 'https://github.com/Osalumense/portfolio',
                liveLink: 'https://akugbe-stephen.netlify.app/',
@@ -54,6 +58,7 @@ export const projectsArr = [
             details: {
                title: 'Web development agency landing page',
                description: 'This is a simple web development agency template designed using Bootstrap and Javacsript.',
+               vid: 'https://streamable.com/e/9613b7?autoplay=1',
                techStack: ['HTML', 'Bootstrap', 'Javascipt', 'jQuery'],
                ghLink: 'https://github.com/Osalumense/ludayhomepage/tree/main',
                liveLink: 'https://osalumense.github.io/ludayhomepage/',
@@ -66,6 +71,7 @@ export const projectsArr = [
             details: {
                title: 'Analogue Clock',
                description: 'A simple analogue clock designed using HTML, CSS and Javacript',
+               vid: 'https://streamable.com/e/jlfeon?autoplay=1',
                techStack: ['HTML', 'CSS', 'Javascript', 'Vercel'],
                ghLink: 'https://github.com/Osalumense/Analogue-Clock',
                liveLink: 'https://analogue-clock-nu.vercel.app/',
