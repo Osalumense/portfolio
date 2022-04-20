@@ -140,20 +140,16 @@ const Hero = () => {
                                         <FiNavigation className="w-4 h-4 ml-1 text-2xl"/>
                                 </HashLink>
                             </div>
-                        </div>
-                        {/* <div className="lg:w-2/5">
-                        <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" className="rounded-full" alt="hero-bg"/>
-                        </div> */}
-                        
+                        </div>                        
                     </div>
                 </div>
                 
                 <div
                     class="h-24 w-24 rounded-full bg-yellow-400 absolute animate-pulse -top-3 left-2 -ml-10 mt-24"
                 ></div>
-                {/* <div
-                    class="h-72 hidden xl:block w-72 bg-yellow-400 absolute opacity-50 top-8 right-2 -ml-10 mt-24"
-                ></div> */}
+                <div
+                    class="h-36 hidden xl:block w-36 skew-x-[20deg] skew-y-[20deg] bg-yellow-400 absolute opacity-70 top-8 right-12 -ml-10 mt-24"
+                ></div>
             </div>
             
         </>

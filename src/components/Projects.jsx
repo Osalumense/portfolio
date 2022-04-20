@@ -20,7 +20,7 @@ const Projects = () => {
          <>
             <div 
             className="w-full
-            md:w-1/2 lg:w-1/3 p-5 my-2 hover:scale-90 transition ease-in-out duration-500" data-aos="fade-up" data-aos-delay="500"
+            md:w-1/2 lg:w-1/3 p-5 my-2 hover:scale-90 transition ease-in-out duration-500" data-aos="fade-up" data-aos-delay={key * 100}
             >
                <div className="rounded-md 
                h-full
