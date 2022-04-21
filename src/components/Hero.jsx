@@ -42,7 +42,7 @@ const Hero = () => {
                             lg:mx-40 
                             flex 
                             flex-col 
-                            lg:mx-8 
+                            lg:mx-48 
                             justify-center"
                         >
                             <h3 
@@ -145,10 +145,11 @@ const Hero = () => {
                 </div>
                 
                 <div
-                    class="h-24 w-24 rounded-full bg-yellow-400 absolute animate-pulse -top-3 left-2 -ml-10 mt-24"
+                    class="h-24 w-24 rounded-full bg-yellow-400 absolute animate-pulse -top-3 left-2 -ml-10 mt-24" data-aos="zoom-in" data-aos-duration="2000"
                 ></div>
                 <div
-                    class="h-36 hidden xl:block w-36 skew-x-[20deg] skew-y-[20deg] bg-yellow-400 absolute opacity-70 top-8 right-12 -ml-10 mt-24"
+                    class="animate-pulse h-24 w-24 hidden xl:block skew-x-[20deg] skew-y-[20deg] bg-yellow-400 absolute opacity-70 top-8 right-12 -ml-10 mt-24"
+                   
                 ></div>
             </div>
             

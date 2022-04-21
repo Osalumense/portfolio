@@ -28,7 +28,7 @@ function About() {
                 lg:w-1/2
                 first-letter:text-4xl 
                 first-letter:font-extrabold" data-aos="fade-up" data-aos-delay="200">
-                <p><span className="stand__out__text">I</span> am a Fullstack web developer with over 2 years industry experience in building web applications. I enjoy building scalable software applications and I love learning new technologies in my leisure. I look forward to building mobile applications using React Native and Flutter soon.</p>
+                <p><span className="stand__out__text">I</span> have always been fascinated at how lines of codes become beautiful websites and applications. My curiosity led me to study Computer Science and in 2018 I took a dive into web applications. Today, I build scalable web applications, learning different technologies based on project needs. I also look forward to building mobile applications using React Native and Flutter soon. </p>
                 <p className="mt-5">Skills: </p>
                 <div 
                     class="grid 

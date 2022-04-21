@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitterSquare, FaDev } from 'react-icons/fa';
 
 function Socials() {
   return (
-    <div className="lg:flex flex-col hidden fixed h-4/6 p-4 z-30 bottom-0 left-0 space-y-6">
+    <div className="lg:flex flex-col hidden fixed h-4/6 p-4 z-30 bottom-0 left-0 space-y-6" data-aos="fade-up" data-aos-duration="3000">
         <a href="https://github.com/Osalumense" rel="noreferrer" target="_blank">
             <FaGithub 
                 className="text-gray-600 
