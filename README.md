@@ -10,6 +10,8 @@ Light mode:
 
 Dark mode:
 ![portfolio-dark](https://user-images.githubusercontent.com/43953425/159141624-b122104b-3215-44d5-9127-0c96ba33cbd9.PNG)
+
+![Video-overview](https://streamable.com/e/v1tgvt?autoplay=1)
 ## Info
 This is a react and Tailwind CSS portfolio website.
 It comes with both dark and light modes, both of which can be toggled depending on your preference.
