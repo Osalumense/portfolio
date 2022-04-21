@@ -45,7 +45,7 @@ export const projectsArr = [
             details: {
                title: 'My Portfolio Website',
                description: 'This is my portfolio website designed using the React framework and TailwindCSS. In this project, I made use of the Context API, React hooks (useState, useEffect).',
-               vid: 'https://streamable.com/e/tek0i5?autoplay=1',
+               vid: 'https://streamable.com/e/v1tgvt?autoplay=1',
                techStack: ['HTML', 'Tailwind CSS', 'React', 'Netlify'],
                ghLink: 'https://github.com/Osalumense/portfolio',
                liveLink: 'https://akugbe-stephen.netlify.app/',
