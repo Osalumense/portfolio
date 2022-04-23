@@ -11,6 +11,9 @@ Light mode:
 Dark mode:
 ![portfolio-dark](https://user-images.githubusercontent.com/43953425/159141624-b122104b-3215-44d5-9127-0c96ba33cbd9.PNG)
 
+### Mobile view
+![mobile-view](https://user-images.githubusercontent.com/43953425/164941068-75f07e6a-9072-4ea5-b305-6f7b753b6e6a.png)
+
 ## Info
 This is a react and Tailwind CSS portfolio website.
 It comes with both dark and light modes, both of which can be toggled depending on your preference.
