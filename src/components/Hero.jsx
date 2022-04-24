@@ -82,7 +82,7 @@ const Hero = () => {
                             </h1>
                             <h3
                                 className="text-4xl 
-                                lg:text-7xl 
+                                lg:text-6xl 
                                 text-gray-900 
                                 dark:text-gray-200 
                                 font-bold
