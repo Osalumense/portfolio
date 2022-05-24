@@ -58,7 +58,7 @@ const Services = () => {
                         justify-center 
                         p-2
                         px-2 
-                        my-4 
+                        my-4 mx-3
                         text-lg 
                         shadow-xl 
                         rounded-2xl 
