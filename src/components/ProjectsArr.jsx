@@ -76,21 +76,7 @@ export const projectsArr = [
                ghLink: 'https://github.com/Osalumense/ludayhomepage/tree/main',
                liveLink: 'https://osalumense.github.io/ludayhomepage/',
             }
-         },
-          {
-            id: 7,
-            img: 'https://user-images.githubusercontent.com/43953425/151187589-60afb516-3699-4f04-8d06-a34080c96b6c.PNG',
-            overview: 'A simple analogue clock designed using HTML, CSS and Javacript',
-            details: {
-               title: 'Analogue Clock',
-               description: 'A simple analogue clock designed using HTML, CSS and Javacript',
-               vid: 'https://streamable.com/e/jlfeon?autoplay=1',
-               techStack: ['HTML', 'CSS', 'Javascript', 'Vercel'],
-               ghLink: 'https://github.com/Osalumense/Analogue-Clock',
-               liveLink: 'https://analogue-clock-nu.vercel.app/',
-            }
-         }
-        
+         }        
      ]
 
 
