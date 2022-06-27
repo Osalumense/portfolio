@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPhp, FaLaravel, FaReact, FaVuejs, FaBootstrap } from 'react-icons/fa';
 import { SiTailwindcss, SiFlask, SiMysql, SiMongodb, SiExpress, SiNodedotjs, SiFirebase } from 'react-icons/si';
-import aboutImg from '../assets/images/Web Developer.svg';
+import aboutImg from '../assets/images/portfolio-img.png';
 
 function About() {
   return (
@@ -130,7 +130,12 @@ function About() {
 
             </div>
             <div className="text-gray-600 dark:text-gray-200 text-base lg:w-1/2">
-                <img src={aboutImg} className="h-64 mx-auto mb-4" alt="About__me"/>
+                <img 
+                    src={aboutImg} className="mx-16" alt="About__me"
+                    data-aos="zoom-in"
+                    data-aos-duration="4000"
+                    data-aos-delay="1000"
+                    />
             </div>
              
         </div>
