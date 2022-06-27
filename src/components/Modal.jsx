@@ -64,7 +64,7 @@ const Modal = ({canShow, updateModalState, props}) => {
                 {/*footer*/}
                 <div className="flex items-center justify-center gap-x-6 p-6 rounded-b">
                     <a target="_blank" rel="noreferrer" className="text-white bg-yellow-400 hover:scale-90 transition ease-in duration-500 p-4 shadow-xl rounded-2xl" href={props.ghLink}>View on GitHub</a>
-                    <a target="_blank" rel="noreferrer" className="text-white bg-gray-500 to-slate-600 via-zinc-500 hover:scale-90 transition ease-in duration-500 p-4 shadow-xl rounded-2xl" href={props.liveLink} >View Demo</a>
+                    <a target="_blank" rel="noreferrer" className="text-white bg-gray-500 to-slate-600 via-zinc-500 hover:scale-90 transition ease-in duration-500 p-4 shadow-xl rounded-2xl" href={props.liveLink} >View Live</a>
                     {/* <a className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href={props.liveLink}>View on LinkedIn</a> */}
                 </div>
               </div>
