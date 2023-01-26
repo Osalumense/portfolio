@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './Navigation/NavBar';
 import { HashLink } from 'react-router-hash-link';
-import cv from '../assets/Akugbe_Stephen_CV.pdf';
+import cv from '../assets/Stephen_Akugbe.pdf';
 import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
@@ -90,7 +90,7 @@ const Hero = () => {
                                 data-aos="zoom-in-up" 
                                 data-aos-delay="700"
                             >
-                                A Full Stack 
+                                A Software
                                 <span 
                                     className="
                                     block 
@@ -117,7 +117,7 @@ const Hero = () => {
                                         text-white 
                                         m-3"
                                     >
-                                        Web Developer
+                                        Engineer
                                     </span>
                                 </span>
                             </h3>
