@@ -2,18 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Screenshots
-
-Light mode:
-![portfolio-light](https://user-images.githubusercontent.com/43953425/159141623-5fcce751-b5c4-401b-979d-2e42c541b177.PNG)
-
-
-Dark mode:
-![portfolio-dark](https://user-images.githubusercontent.com/43953425/159141624-b122104b-3215-44d5-9127-0c96ba33cbd9.PNG)
-
-### Mobile view
-![mobile-darkview](https://user-images.githubusercontent.com/43953425/164942569-e9978460-b0a2-4374-af45-d757cff23a46.jpeg)
-
 ## Info
 This is a react and Tailwind CSS portfolio website.
 It comes with both dark and light modes, both of which can be toggled depending on your preference.
@@ -32,3 +20,13 @@ To run this project in your local machine:
 Feel free to make edits and customize as you wish
 . 
 Don't forget to give the repo a star if you like it.
+
+
+## Screenshots
+
+Light mode:
+![portfolio-light](https://user-images.githubusercontent.com/43953425/218333010-f1b2df36-16b7-42e3-b09d-6a7bc01afc1b.png)
+
+
+Dark mode:
+![portfolio-dark](https://user-images.githubusercontent.com/43953425/218333017-99d1fa39-56af-4c71-a734-737ea34957fd.png)
