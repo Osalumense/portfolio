@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './Navigation/NavBar';
 import { HashLink } from 'react-router-hash-link';
-import cv from '../assets/Stephen_Akugbe.pdf';
+import cv from 'https://drive.google.com/file/d/197m2j5tezwsWikN_y3ZfGzvkMJ6JIok3/view';
 import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
