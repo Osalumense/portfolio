@@ -14,7 +14,7 @@ export const projectsArr = [
         },
         {
            id: 2,
-           img: 'https://user-images.githubusercontent.com/43953425/218332154-bb18af6d-f790-4507-af3e-6d1aef59cdd9.png',
+           img: 'https://github.com/Osalumense/mld/assets/43953425/a800f28d-380b-4e21-8cdb-c09fe5ca3251',
             overview: 'Event MS',
             details: {
                title: 'Event MS',

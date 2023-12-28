@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './Navigation/NavBar';
 import { HashLink } from 'react-router-hash-link';
-import cv from 'https://drive.google.com/file/d/197m2j5tezwsWikN_y3ZfGzvkMJ6JIok3/view';
+// import cv from 'https://drive.google.com/file/d/197m2j5tezwsWikN_y3ZfGzvkMJ6JIok3/view';
 import { FaArrowDown } from 'react-icons/fa';
 import { FiNavigation } from 'react-icons/fi';
 
@@ -126,11 +126,14 @@ const Hero = () => {
                                 data-aos="fade-up" data-aos-delay="900"
                             >
                                 <a 
-                                    href={cv} 
+                                    // href={cv} 
+                                    href="https://drive.google.com/file/d/197m2j5tezwsWikN_y3ZfGzvkMJ6JIok3/view"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     className="text-white bg-yellow-400 hover:bg-yellow-300 hover:scale-90 transition ease-in duration-500 inline-flex items-center justify-center px-6 py-3 my-4 mx-3 group text-lg shadow-xl rounded-2xl group sm:w-auto sm:mb-0"
                                     download
                                 >
-                                    Download CV
+                                    View CV
                                     <FaArrowDown className="w-4 h-4 ml-1 group-hover:animate-bounce"/>
                                 </a>
                                 <HashLink 
