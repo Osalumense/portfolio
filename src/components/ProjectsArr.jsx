@@ -82,7 +82,7 @@ export const projectsArr = [
          img: 'https://user-images.githubusercontent.com/43953425/151820511-40400477-d480-42f0-9364-f274bd43db8a.PNG',
          overview: 'A small web application that generates random motivational quotes to keep you going',
          details: {
-            title: 'HCS (Health COunselling System',
+            title: 'HCS (Health Counselling System)',
             description: 'A mental health counselling application developed in the Laravel framework, the appplication enables users to enjoy counselling sessions from the comfort of their homes either through chat and video calls.',
             vid: 'https://github-production-user-asset-6210df.s3.amazonaws.com/43953425/289694818-b9c1cac0-6c2a-4bad-bcc7-c9c3c311f326.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231211T225755Z&X-Amz-Expires=300&X-Amz-Signature=f1201cdb0f7d752cf559f4f8d71a86933d3f3735b7d527b1ccbd61fa92cd327f&X-Amz-SignedHeaders=host&actor_id=43953425&key_id=0&repo_id=454053524',
             techStack: ['HTML', 'Laravel', 'jQuery', 'JavaScript'],
